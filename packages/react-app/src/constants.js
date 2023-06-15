@@ -49,10 +49,10 @@ export const NETWORKS = {
   buildbear: {
     name: "buildbear",
     color: "#666666",
-    chainId: bbNode ? bbNode.chainId : "",
-    faucet: `https://faucet.${BASE_URL}/${bbNode ? bbNode.nodeId : ""}`,
-    blockExplorer: `https://explorer.${BASE_URL}/${bbNode ? bbNode.nodeId : ""}`,
-    rpcUrl: `https://rpc.${BASE_URL}/${bbNode ? bbNode.nodeId : ""}`,
+    chainId: bbNode ? bbNode.chainId : "1",
+    faucet: `https://faucet.${BASE_URL}/${bbNode ? bbNode.nodeId : "1"}`,
+    blockExplorer: `https://explorer.${BASE_URL}/${bbNode ? bbNode.nodeId : "1"}`,
+    rpcUrl: `https://rpc.${BASE_URL}/${bbNode ? bbNode.nodeId : "1"}`,
     nativeCurrency: {
       name: "BB Ether",
       symbol: "BB ETH",
